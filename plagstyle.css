@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#result-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: none;
+}
+
+#result-container p {
+  margin-bottom: 5px;
+}
+
+#result-container .original {
+  color: green;
+}
+
+#result-container .plagiarized {
+  color: red;
+}
